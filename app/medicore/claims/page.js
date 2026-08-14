@@ -3,8 +3,7 @@ export const dynamic = 'force-dynamic'
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { getSupabaseClient } from '../../lib/supabaseClient'
-
+import { getSupabaseClient } from '../../../lib/supabaseClient'
 export default function ClaimsDashboard() {
   const [claims, setClaims] = useState([])
   const [loading, setLoading] = useState(true)
