@@ -1,0 +1,36 @@
+{
+  "patient": {
+    "name": "Doe, Jane",
+    "dob": "01/01/1980",
+    "visit_type": "Follow-up",
+    "dos": "02/14/2026",
+    "admit_date": "",
+    "room": "",
+    "bed": "",
+    "inpatient_status": "Outpatient",
+    "gender": "Female",
+    "mrn": "000000",
+    "carrier": "Sample Carrier",
+    "attending": "Smith, John",
+    "rendering_provider": "John Smith, MD"
+  },
+  "document_title": "PROGRESS NOTE",
+  "fields": [
+    ["Chief Complaint:", "Sample chief complaint text."],
+    ["Current Medications:", "Sample medication list."]
+  ],
+  "course_of_treatment": [],
+  "narrative_sections": [
+    ["Subjective:", "Sample subjective narrative."],
+    ["Objective:", "Sample objective findings."],
+    ["Assessment:", "Sample clinical assessment."],
+    ["Plan:", "Sample treatment plan."]
+  ],
+  "signature": {
+    "dictated_at": "02/14/2026 10:15",
+    "transcribed_at": "02/14/2026 10:20",
+    "transcribed_by": "Transcriber, Name",
+    "provider_name": "John Smith, MD",
+    "provider_title": "Physician"
+  }
+}

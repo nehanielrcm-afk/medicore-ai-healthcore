@@ -1,0 +1,43 @@
+{
+  "patient": {
+    "name": "Doe, Jane",
+    "dob": "01/01/1980",
+    "visit_type": "",
+    "dos": "01/10/2026",
+    "admit_date": "01/01/2026",
+    "room": "100",
+    "bed": "1",
+    "inpatient_status": "Voluntary",
+    "gender": "Female",
+    "mrn": "000000",
+    "carrier": "Sample Carrier",
+    "attending": "Smith, John",
+    "rendering_provider": "John Smith, MD"
+  },
+  "document_title": "DISCHARGE SUMMARY",
+  "fields": [
+    ["Date of Admission:", "01/01/2026"],
+    ["Date of Discharge:", "01/10/2026"],
+    ["Admitting Diagnosis:", "Sample admitting diagnosis"],
+    ["Discharge Diagnosis - Primary:", "Sample primary discharge diagnosis"],
+    ["Discharge Diagnosis - Secondary:", "Sample secondary discharge diagnosis"],
+    ["Reason for Admission:", "Sample reason for admission"]
+  ],
+  "course_of_treatment": [
+    ["Course of Treatment - 01/02/2026 (Day 1 - Admission):",
+     "Sample narrative describing the patient's presentation and initial assessment."],
+    ["Course of Treatment - 01/03/2026 (Day 2):",
+     "Sample narrative describing hospital day 2."]
+  ],
+  "narrative_sections": [
+    ["Case Management:", "Sample case management narrative."],
+    ["Abnormal Lab & Imaging Values:", "Sample lab/imaging summary."]
+  ],
+  "signature": {
+    "dictated_at": "01/10/2026 04:30",
+    "transcribed_at": "01/10/2026 06:02",
+    "transcribed_by": "Transcriber, Name",
+    "provider_name": "John Smith, MD",
+    "provider_title": "Psychiatrist"
+  }
+}

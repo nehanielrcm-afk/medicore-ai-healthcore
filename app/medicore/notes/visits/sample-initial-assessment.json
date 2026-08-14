@@ -1,0 +1,36 @@
+{
+  "patient": {
+    "name": "Doe, Jane",
+    "dob": "01/01/1980",
+    "visit_type": "Initial Evaluation",
+    "dos": "01/01/2026",
+    "admit_date": "01/01/2026",
+    "room": "",
+    "bed": "",
+    "inpatient_status": "Outpatient",
+    "gender": "Female",
+    "mrn": "000000",
+    "carrier": "Sample Carrier",
+    "attending": "Smith, John",
+    "rendering_provider": "John Smith, MD"
+  },
+  "document_title": "INITIAL ASSESSMENT",
+  "fields": [
+    ["Presenting Problem:", "Sample presenting problem."],
+    ["History of Present Illness:", "Sample HPI narrative."],
+    ["Past Medical History:", "Sample past medical history."]
+  ],
+  "course_of_treatment": [],
+  "narrative_sections": [
+    ["Mental Status Exam:", "Sample mental status exam findings."],
+    ["Diagnosis:", "Sample diagnosis."],
+    ["Treatment Plan:", "Sample initial treatment plan."]
+  ],
+  "signature": {
+    "dictated_at": "01/01/2026 14:00",
+    "transcribed_at": "01/01/2026 14:10",
+    "transcribed_by": "Transcriber, Name",
+    "provider_name": "John Smith, MD",
+    "provider_title": "Physician"
+  }
+}
